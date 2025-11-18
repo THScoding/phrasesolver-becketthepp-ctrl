@@ -7,9 +7,21 @@ import java.util.Scanner;
 
 public class Player
 {
-  /* your code here - attributes */
+  private String name;
+  private int points;
 
-  /* your code here - constructor(s) */ 
+
+  public Player(){//constructor
+      points = 0;
+      name = "";
+      Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter name: ");
+    name = scanner.nextLine();
+    System.out.println("Hello " + name + "! And welcome to the PhraseSolver game!");
+
+  }
+  /* your code here - constructor(s) *
+  
 
   /* your code here - accessor(s) */ 
 

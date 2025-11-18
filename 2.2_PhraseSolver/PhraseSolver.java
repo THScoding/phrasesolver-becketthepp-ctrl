@@ -7,8 +7,17 @@ import java.util.Scanner;
   
 public class PhraseSolver
 {
-  /* your code here - attributes */
+  private Player player1;
+  private Player player2;
+  private Board game;
+  private Boolean solved;
 
+  public Phrasesolver () {
+    player1 = null;
+    player2 = null;
+    game = null;
+    solved = false;
+  }
   /* your code here - constructor(s) */ 
 
   public void play()
